@@ -1,0 +1,211 @@
+.services .container {
+  position: relative;
+  padding: 300px 0;
+}
+.servicesHeading {
+  font-family: "Schoolbell-400";
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #265a6a;
+  text-align: center;
+}
+.services .container h1 {
+  height: 120px;
+  width: 510px;
+  margin: 0 auto;
+  font-family: "Inter-600";
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  color: #08546c;
+  text-align: center;
+}
+.servicesBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.servicesItem {
+  height: 251px;
+  width: 273px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0px 42px 33px 0px #0000000d;
+  transition: 0.3s;
+}
+.servicesItem:hover {
+  background: #08546c;
+}
+.servicesItem:hover h2 {
+  color: #fff;
+}
+.servicesItem:hover p {
+  color: #b2bbbd;
+}
+.servicesItem:hover .itemImg {
+  background: #ffa800;
+}
+.servicesItem:hover .itemImg {
+  background: #ffa800;
+}
+.servicesItem .itemImg {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 3px;
+}
+.servicesItem .itemImg img {
+  width: 80%;
+}
+.servicesItem .itemImg img svg path {
+  stroke: red;
+}
+.servicesItem h2 {
+  position: relative;
+  top: 25px;
+  font-family: "Inter-600";
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0f1221;
+}
+.servicesItem p {
+  position: relative;
+  top: 35px;
+  font-family: "Inter-400";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  color: #696969;
+}
+.servicesHeading {
+  font-family: "Schoolbell-400";
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  color: #265a6a;
+}
+.servicesHeading h1 {
+  height: 120px;
+  width: 510px;
+  font-family: "Inter-600";
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #08546c;
+}
+.statistic {
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: -110px;
+  padding: 30px 0;
+  border-radius: 30px;
+  background: #ffffff;
+  box-shadow: 0px 73px 80px 0px #0000000f;
+}
+.statisticHeading {
+  font-family: "Inter-600";
+  font-size: 24px;
+  line-height: 22px;
+  color: #265a6a;
+  text-align: center;
+  margin-top: 64px;
+}
+.statisticNumbers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number h2 {
+  font-family: "Inter-600";
+  font-size: 48px;
+  line-height: 22px;
+
+  color: #08546c;
+}
+.number p {
+  font-family: "Inter-400";
+  font-size: 18px;
+  margin-top: 25px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.portfolio .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio .container h1 {
+  font-family: "Inter-600";
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 0em;
+  color: #08546c;
+  margin-bottom: 10px;
+}
+.portfolio .container p {
+  font-family: "Inter-400";
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #757575;
+  margin-bottom: 60px;
+  height: 58px;
+  width: 569px;
+}
+.portfolioBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolioItem {
+  position: relative;
+  max-width: 515px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.portfolioItem h2 {
+  margin-top: 40px;
+}
+.portfolioItem p {
+  margin-top: 10px;
+  max-width: 100%;
+}
+.portfolioItem .moreInfo {
+  margin-top: 20px;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.moreInfo p {
+  font-family: "Inter-500";
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #08546c;
+}
+.moreInfo p:hover {
+  color: gold;
+}
